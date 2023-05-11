@@ -1,0 +1,55 @@
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+
+.container {
+	max-width: 1200px;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 15px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.header {
+	display: grid;
+	grid-template-areas:
+		"txtinfo info";
+	align-items: center;
+	background: rgb(64, 59, 27);
+	background: linear-gradient(90deg, rgba(64, 59, 27, 1) 0%, rgba(0, 0, 0, 0.7959558823529411) 98%);
+	justify-items: center;
+}
+
+.txtinfo {
+	color: bisque;
+	font-size: 22px;
+	grid-area: txtinfo;
+}
+
+.info {
+	width: 60px;
+	height: 60px;
+	grid-area: info;
+}
+
+.main {
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/logo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+.txt_main_logo {
+	vertical-align: bottom;
+	color: bisque;
+}
+
+.txt_school {
+	vertical-align: bottom;
+	color: bisque;
+}
